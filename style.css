@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+  background-color: rgb(254, 250, 250);
+}
+#nav{
+    height: 100px;
+    width: 100%;
+   /* background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0 30px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+#center{
+    width: 100%;
+   /* background-color: red;*/
+    padding: 40px 40px;
+}
+
+#center h1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+}
+#center-in{
+    height: 200px;
+   /* background-color: red;*/
+    width: 100%;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-in p{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+#right{
+    width: 20%;
+}
+.elem{
+    /*background-color: rgb(75, 246, 13);*/
+    /*margin: 5px;*/
+    padding: 20px 0;
+    width: 20px 0;
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20  2px;
+}
+.elem:hover i{
+   opacity: 1;
+}
+.elem:hover a{
+   text-decoration: underline;
+}
+#bottom{
+    height: 35%;
+    width: 100%;
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1546728150-b3cbeddb6f6d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 30%;
+}
